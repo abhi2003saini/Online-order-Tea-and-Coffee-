@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    background-color: #dcb752;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+nav .unorderdlist {
+    margin-left: auto;
+}
+
+nav .unorderdlist ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav .unorderdlist ul li {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+}
+
+.backimages {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.backimages img {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.backimages img.active {
+    opacity: 1;
+}
+.contentchai p{
+    color: #54595F;
+    font-family: sans-serif,Poppins;
+    margin-left: 25px;
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+.button-container{
+    gap: 15px;
+    
+}
+.view-menu{
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 0 18px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    
+}
+.Our-Story{
+    background-color: #477A7B;
+    border: 1px solid lightblue;
+    padding: 0 18px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+.delivery-transport{
+    width: 100%;
+    height: 70vh;
+    background-color: #f4eee0;
+    margin-top: 40px;
+}
+.transport {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item p {
+    margin: 0;
+    text-align: center;
+}
+.shopitems {
+    border: 1px dotted #477A7B;
+}
+
+.imgitems img {
+    width: 180px;
+    height: 270px;
+}
+
+.imgtext {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #477A7B;
+}
+.BEONYOURBOSS {
+    background-image: url(chaiwalaglass.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 640px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.BEONYOURBOSS .selftext {
+    width: 580px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.BEONYOURBOSS .selftext p{
+    padding-top: 15px;
+}
+.franchise{
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 0 18px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+.shoplist {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    display: block;
+    margin-left: 10px;
+}
+
+.text-container h3 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+.text-container p {
+    margin: 5px 0 0 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.footer-column p, .footer-column ul, .footer-column a {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-column a:hover {
+    color: #000;
+}
+
+.footer-column img {
+    margin-right: 10px;
+}
+
+.footer-column input[type="email"] {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-column button {
+    padding: 5px 10px;
+    background-color: #477A7B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-column .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-links a img{
+    width: 20px;
+    height: 20px;
+}
+button{
+    height: 30px;
+}
+.footer-column img{
+   width: 40px;
+   height: 50px;
+}
+
+
+
